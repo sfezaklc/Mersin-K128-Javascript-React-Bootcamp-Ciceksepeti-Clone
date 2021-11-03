@@ -1,0 +1,22 @@
+.div-slick-list{
+    width: 100px !important;
+}
+ant-carousel .slick-list {
+    width: 1044px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ant-carousel {
+    box-sizing: border-box;
+    
+    padding: 50px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+}

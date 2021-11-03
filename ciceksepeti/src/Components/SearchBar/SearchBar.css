@@ -1,0 +1,34 @@
+.searchbar .ant-space-vertical {
+    flex-direction: column;
+    margin-left: 70px;
+    width: 460px;
+}
+.searchbar img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 50px !important;
+}
+.searchbar .ant-btn-primary {
+    background-color: #51b549;
+}
+.user-icons {
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+    width: 250px;
+}
+.user-icons{
+    display: inline-block;
+    
+}
+.user-icons-title{
+    display: block;
+}
+.user-menu-item li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+}
+

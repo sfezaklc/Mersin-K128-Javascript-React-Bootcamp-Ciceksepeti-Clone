@@ -1,0 +1,79 @@
+
+.ant-layout-content {
+    flex: auto;
+    min-height: 600px;
+    padding: 0 80px 0 80px;
+}
+.ant-col-2 {
+    display: inline-block;
+    flex: 1 0 8.33333333%;
+    max-width: 50%;
+}
+.ant-row-start {
+    justify-content: flex-start;
+    text-align: center;
+    width: 800px;
+    height: 440px;
+    margin: 0 auto;
+}
+.col1{
+    position: relative;
+    background-color: #23519d;
+    transition: all .6s .1s;
+    z-index: 9;
+}
+.col1:after {
+    content: "";
+    position: absolute;
+    background-image: url(../../images/sapphire.jpg);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.25;
+    background-size: cover;
+    background-position: 100%;
+    left:0px;
+    top: 0px;
+}
+.login-form{
+    position: relative;
+    top: 50px;
+}
+
+.login-form .ant-btn-primary {
+    color: #fff;
+    border-color: #51b549;
+    background: #51b549;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    width: 200px;
+}
+.ant-form {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    width: 350px;
+}
+.col1 div{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.col1 h1{
+    margin-bottom: 0.5em;
+    color: #e6f7ff;
+    font-weight: 500;
+    
+}
+p{
+    color: #e6f7ff;
+    font-size: 16px;
+}
