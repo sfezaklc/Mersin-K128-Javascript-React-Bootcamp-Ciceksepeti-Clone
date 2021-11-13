@@ -20,7 +20,8 @@
 }
 .user-icons{
     display: inline-block;
-    
+    width: 400px;
+    right: 0;
 }
 .user-icons-title{
     display: block;

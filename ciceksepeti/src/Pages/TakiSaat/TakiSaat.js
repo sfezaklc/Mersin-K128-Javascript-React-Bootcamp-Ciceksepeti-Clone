@@ -4,25 +4,25 @@ import { useState, useEffect } from 'react'
 import { useHistory } from "react-router-dom";
 const { Meta } = Card;
 
-export default function Elektronik() {
+export default function TakiSaat() {
     const [products, setProducts] = useState([]);
     let history = useHistory();
 
 
 
     useEffect(() => {
-        fetch('http://localhost:3001/categories/3')
+        fetch('http://localhost:3001/categories/4')
             .then(res => res.json())
             .then(json => handleData(json))
             
     }, [])
     const handleData = (data) => {
-        //handleCategoryList(data);s
+        //handleCategoryList(data);
         setProducts(data.products);
     }
     return (
         <div>
-            <h1>Elektronik</h1>
+            <h1>Takı Saat</h1>
             <Layout>
                     <div>
                         <List

@@ -4,14 +4,14 @@ import { useState, useEffect } from 'react'
 import { useHistory } from "react-router-dom";
 const { Meta } = Card;
 
-export default function Elektronik() {
+export default function YenilebilirCicek() {
     const [products, setProducts] = useState([]);
     let history = useHistory();
 
 
 
     useEffect(() => {
-        fetch('http://localhost:3001/categories/3')
+        fetch('http://localhost:3001/categories/8')
             .then(res => res.json())
             .then(json => handleData(json))
             
@@ -22,7 +22,7 @@ export default function Elektronik() {
     }
     return (
         <div>
-            <h1>Elektronik</h1>
+            <h1>Yenilebilir Çiçek</h1>
             <Layout>
                     <div>
                         <List

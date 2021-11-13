@@ -3,10 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
+import thunk from 'redux-thunk';
+import { createPromise } from 'redux-promise-middleware'
+import { Provider } from 'react-redux';
+import basket from './store/reducers/basket';
+import product from './store/reducers/product';
+
+const store = createStore(
+  combineReducers({ product, basket }),
+  applyMiddleware(createPromise(), thunk)
+);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

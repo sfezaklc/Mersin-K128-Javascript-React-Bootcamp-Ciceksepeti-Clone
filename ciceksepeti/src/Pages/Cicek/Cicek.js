@@ -32,11 +32,7 @@ export default function Cicek() {
                                 return (
                                     <List.Item>
                                         <Card
-                                            onClick={() => history.push(
-                                                '/product-detail',
-                                                {
-                                                    item: item,
-                                                })}
+                                            onClick={() => history.push('/product-detail/' + item.id)}
                                             hoverable
                                             style={{ width: 240 }}
                                             cover={<img alt="example" style={{ width: '100%' }} src={item.image} />}

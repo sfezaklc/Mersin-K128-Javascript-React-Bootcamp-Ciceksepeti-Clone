@@ -32,7 +32,6 @@ export default function MyHeader() {
                         <Menu.Item key="5"><NavLink to="/elektronik">Elektronik</NavLink></Menu.Item>
                         <Menu.Item key="6"><NavLink to="/taki-saat">Takı&Saat</NavLink></Menu.Item>
                         <Menu.Item key="7"><NavLink to="/ev-yasam">Ev&Yasam</NavLink></Menu.Item>
-                        <Menu.Item key="8"><NavLink to="/elektronik">Kişisel Bakım</NavLink></Menu.Item>
                         <Menu.Item key="9"><NavLink to="/moda">Moda</NavLink></Menu.Item>
                         <Menu.Item key="10"><NavLink to="/oyuncak">Oyuncak</NavLink></Menu.Item>
 
